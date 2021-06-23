@@ -42,6 +42,7 @@ if __name__ == "__main__":
     coins_processed = 0
     height = []
     amount = []
+    csvFileName = str(block_height) + "_utxo.csv"
     with open('utxodump.csv', 'r') as csvfile:
         lines = csvfile.readlines()
 
