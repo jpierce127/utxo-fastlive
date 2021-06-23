@@ -43,7 +43,7 @@ if __name__ == "__main__":
     height = []
     amount = []
     csvFileName = str(block_height) + "_utxo.csv"
-    with open('utxodump.csv', 'r') as csvfile:
+    with open(csvFileName, 'r') as csvfile:
         lines = csvfile.readlines()
 
         # for row in csvreader:
